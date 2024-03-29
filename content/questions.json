@@ -5,6 +5,7 @@
         {
             "ID": 1,
             "Q": "Take it reverse",
+            "C": "A = B",
             "A": {
                 "A": "Yes",
                 "B": "No",
@@ -16,6 +17,7 @@
         {
             "ID": 2,
             "Q": "Try it out",
+            "C": "IF 0 = 0.",
             "A": {
                 "A": "Yes",
                 "B": "No",
