@@ -12,7 +12,8 @@
                 "C": "Maybe",
                 "D": "Error"
             },
-            "S": "C"
+            "S": "C",
+            "T": "As it is"
         },
         {
             "ID": 2,
@@ -24,7 +25,8 @@
                 "C": "Maybe",
                 "D": "Error"
             },
-            "S": "A"
+            "S": "A",
+            "T": "Better luck next time"
         }
     ]
 }
