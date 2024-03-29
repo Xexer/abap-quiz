@@ -1,0 +1,26 @@
+{
+    "Type": "QUESTION",
+    "Description": "Modern ABAP",
+    "Content": [
+        {
+            "Q": "Take it reverse",
+            "A": {
+                "A": "Yes",
+                "B": "No",
+                "C": "Maybe",
+                "D": "Error"
+            },
+            "S": "C"
+        },
+        {
+            "Q": "Trxy it out",
+            "A": {
+                "A": "Yes",
+                "B": "No",
+                "C": "Maybe",
+                "D": "Error"
+            },
+            "S": "A"
+        }
+    ]
+}
