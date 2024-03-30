@@ -2,10 +2,17 @@
     {
         "Area": {
             "en": "Modern ABAP",
-            "de": "Modernes ABAP"            
+            "de": "Modernes ABAP"
         },
         "QuizList": {
-            "M1": "https://raw.githubusercontent.com/Xexer/abap-quiz/main/content/m1.json"
+            "en": [
+                {
+                    "QuizID": "M1",
+                    "Identifier": "m1_en",
+                    "Path": "https://raw.githubusercontent.com/Xexer/abap-quiz/main/content/m1_en.json"
+                }
+            ],
+            "de": []
         }
     }
 ]
