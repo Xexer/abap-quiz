@@ -1,0 +1,136 @@
+{
+    "QuizID": "C1",
+    "QuizFrom": "2024-03-30",
+    "QuizContent": [
+        {
+            "QuestionID": "1",
+            "Question": "What is ABAP Cloud?",
+            "Content": [],
+            "Answers": {
+                "A": "Steampunk",
+                "B": "ABAP Environment",
+                "C": "Development Model",
+                "D": "Fantasy novel"
+            },
+            "RightAnswer": "C",
+            "Explanation": "ABAP Cloud is the new Development Model in ABAP, to develop Clean Core and Cloud Ready Applications."
+        },
+        {
+            "QuestionID": "2",
+            "Question": "Where can you use ABAP Cloud?",
+            "Content": [],
+            "Answers": {
+                "A": "ABAP Environment",
+                "B": "S/4 HANA Public & Private Cloud",
+                "C": "S/4 HANA On-Premise",
+                "D": "All Environments"
+            },
+            "RightAnswer": "D",
+            "Explanation": "ABAP Cloud is the Development Model for the future and for all Environments."
+        },
+        {
+            "QuestionID": "3",
+            "Question": "Which object is not supported in ABAP Cloud?",
+            "Content": [],
+            "Answers": {
+                "A": "Report",
+                "B": "Class",
+                "C": "Function Module",
+                "D": "Core Data Service"
+            },
+            "RightAnswer": "A",
+            "Explanation": "Reports are part of the SAP GUI and are no longer supported with ABAP Cloud. Only browser front ends like Fiori are supported."
+        },
+        {
+            "QuestionID": "4",
+            "Question": "Where do you get informations about released objects?",
+            "Content": [],
+            "Answers": {
+                "A": "Cloudfication Repository",
+                "B": "Properties View (ADT)",
+                "C": "Repository Tree (ADT)",
+                "D": "SE80"
+            },
+            "RightAnswer": "D",
+            "Explanation": "The SE80 is probably still the favorite IDE for many ABAP developers, but with ABAP Cloud you primarily need the ABAP development tools to create the new artifacts."
+        },
+        {
+            "QuestionID": "5",
+            "Question": "How are jobs in ABAP Cloud scheduled in the system?",
+            "Content": [],
+            "Answers": {
+                "A": "SM36",
+                "B": "Report",
+                "C": "Application Jobs",
+                "D": "No need for Jobs"
+            },
+            "RightAnswer": "C",
+            "Explanation": "Jobs are scheduled in ABAP via the Fiori App Application Jobs. But there are also APIs in ABAP and as OData for job schedulers."
+        },
+        {
+            "QuestionID": "6",
+            "Question": "What is the name of the model for structuring your own objects?",
+            "Content": [],
+            "Answers": {
+                "A": "2-TIER Model",
+                "B": "3-TIER Model",
+                "C": "ABAP Cloud Model",
+                "D": "There is no model"
+            },
+            "RightAnswer": "B",
+            "Explanation": "The 3-TIER model is a central component of ABAP Cloud and provides help with structuring in-house developments in the system. The three pillars create the respective TODOs for you and SAP."
+        },
+        {
+            "QuestionID": "7",
+            "Question": "How are on-premise software components managed?",
+            "Content": [],
+            "Answers": {
+                "A": "Report",
+                "B": "Fiori App",
+                "C": "ABAP Development Tools",
+                "D": "SE80"
+            },
+            "RightAnswer": "A",
+            "Explanation": "Currently, the software components can only be managed on-premise with the RSMAINTAIN_SWCOMPONENTS report (as of S/4 HANA 2022/2023)."
+        },
+        {
+            "QuestionID": "8",
+            "Question": "What do you need to access not released objects in TIER-1?",
+            "Content": [],
+            "Answers": {
+                "A": "Access it directly",
+                "B": "Build a wrapper",
+                "C": "Move to TIER-3",
+                "D": "Role a wrap"
+            },
+            "RightAnswer": "B",
+            "Explanation": "If you want to use a non-released SAP object, then you have to build a wrapper on TIER-2 and release it in order to be able to use it in TIER-1."
+        },
+        {
+            "QuestionID": "9",
+            "Question": "What can't you do with software components?",
+            "Content": [],
+            "Answers": {
+                "A": "Use it with gCTS",
+                "B": "TIER-3 objects can access",
+                "C": "Use released TIER-2 objects",
+                "D": "Use object of other software components"
+            },
+            "RightAnswer": "D",
+            "Explanation": "You can only use objects from other software components if they have been released. By default, use is not permitted."
+        },
+        {
+            "QuestionID": "10",
+            "Question": "How are objects released for TIER-1?",
+            "Content": [],
+            "Answers": {
+                "A": "C1 Contract",
+                "B": "Object state",
+                "C": "Build on TIER-3",
+                "D": "Never"
+            },
+            "RightAnswer": "A",
+            "Explanation": "To release an object for TIER-1, you must create a C1 contract via the API State in the Properties View (ADT)."
+        }
+    ]
+}

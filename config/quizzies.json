@@ -5,19 +5,30 @@
             "de": "Modernes ABAP"
         },
         "QuizList": {
+            "en": [],
+            "de": []
+        }
+    },
+    {
+        "Area": {
+            "en": "ABAP Cloud",
+            "de": "ABAP Cloud"
+        },
+        "QuizList": {
             "en": [
                 {
-                    "QuizID": "M1",
-                    "Identifier": "m1_en",
-                    "Path": "https://raw.githubusercontent.com/Xexer/abap-quiz/main/content/m1_en.json"
-                },
-                {
-                    "QuizID": "M2",
-                    "Identifier": "m2_en",
-                    "Path": "https://raw.githubusercontent.com/Xexer/abap-quiz/main/content/m2_en.json"
+                    "QuizID": "C1",
+                    "Identifier": "c1_en",
+                    "Path": "https://raw.githubusercontent.com/Xexer/abap-quiz/main/content/c1_en.json"
                 }
             ],
-            "de": []
+            "de": [
+                {
+                    "QuizID": "C1",
+                    "Identifier": "c1_de",
+                    "Path": "https://raw.githubusercontent.com/Xexer/abap-quiz/main/content/c1_de.json"
+                }
+            ]
         }
     }
 ]
