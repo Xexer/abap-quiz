@@ -10,6 +10,11 @@
                     "QuizID": "M1",
                     "Identifier": "m1_en",
                     "Path": "https://raw.githubusercontent.com/Xexer/abap-quiz/main/content/m1_en.json"
+                },
+                {
+                    "QuizID": "M2",
+                    "Identifier": "m2_en",
+                    "Path": "https://raw.githubusercontent.com/Xexer/abap-quiz/main/content/m2_en.json"
                 }
             ],
             "de": []
