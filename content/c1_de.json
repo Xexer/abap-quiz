@@ -30,7 +30,7 @@
         },
         {
             "QuestionID": "3",
-            "Question": "Welches Objekt wir in ABAP Cloud nicht unterstützt?",
+            "Question": "Welches Objekt wird in ABAP Cloud nicht unterstützt?",
             "Content": [],
             "Answers": {
                 "A": "Report",
