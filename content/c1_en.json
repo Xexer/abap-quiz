@@ -43,7 +43,7 @@
         },
         {
             "QuestionID": "4",
-            "Question": "Where do you get informations about released objects?",
+            "Question": "Where don't you get informations about released objects?",
             "Content": [],
             "Answers": {
                 "A": "Cloudfication Repository",

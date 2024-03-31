@@ -43,7 +43,7 @@
         },
         {
             "QuestionID": "4",
-            "Question": "Wo erhältst du Informationen über freigegebene Objekte?",
+            "Question": "Wo erhältst du keine Informationen über freigegebene Objekte?",
             "Content": [],
             "Answers": {
                 "A": "Cloudfication Repository",
