@@ -19,7 +19,7 @@
                 {
                     "QuizID": "C1",
                     "Identifier": "c1_en",
-                    "Description": "ABAP Cloud - Basics",
+                    "Description": "Basics",
                     "QuizDate": "2024-03-30",
                     "Path": "https://raw.githubusercontent.com/Xexer/abap-quiz/main/content/c1_en.json"
                 }
@@ -28,7 +28,7 @@
                 {
                     "QuizID": "C1",
                     "Identifier": "c1_de",
-                    "Description": "ABAP Cloud - Grundlagen",
+                    "Description": "Grundlagen",
                     "QuizDate": "2024-03-30",                    
                     "Path": "https://raw.githubusercontent.com/Xexer/abap-quiz/main/content/c1_de.json"
                 }
