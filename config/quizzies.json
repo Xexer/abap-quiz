@@ -1,16 +1,6 @@
 [
     {
         "Area": {
-            "en": "Modern ABAP",
-            "de": "Modernes ABAP"
-        },
-        "QuizList": {
-            "en": [],
-            "de": []
-        }
-    },
-    {
-        "Area": {
             "en": "ABAP Cloud",
             "de": "ABAP Cloud"
         },
@@ -21,6 +11,7 @@
                     "Identifier": "c1_en",
                     "Description": "Basics",
                     "QuizDate": "2024-03-30",
+                    "Author": "Björn",
                     "Path": "https://raw.githubusercontent.com/Xexer/abap-quiz/main/content/c1_en.json"
                 }
             ],
@@ -29,10 +20,31 @@
                     "QuizID": "C1",
                     "Identifier": "c1_de",
                     "Description": "Grundlagen",
-                    "QuizDate": "2024-03-30",                    
+                    "QuizDate": "2024-03-30",        
+                    "Author": "Björn",            
                     "Path": "https://raw.githubusercontent.com/Xexer/abap-quiz/main/content/c1_de.json"
                 }
             ]
+        }
+    },
+    {
+        "Area": {
+            "en": "Core Data Services",
+            "de": "Core Data Services"
+        },
+        "QuizList": {
+            "en": [],
+            "de": []
+        }
+    },
+    {
+        "Area": {
+            "en": "Modern ABAP",
+            "de": "Modernes ABAP"
+        },
+        "QuizList": {
+            "en": [],
+            "de": []
         }
     }
 ]
