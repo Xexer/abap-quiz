@@ -1,5 +1,5 @@
 {
-    "QuizID": "M1",
+    "QuizID": "M2",
     "QuizFrom": "2024-05-09",
     "QuizContent": [
         {
@@ -7,17 +7,17 @@
             "Question": "Was wird in der Konsole ausgegeben?",
             "Content": [
                 {
-                    "Code": " DATA(data) = VALUE t_datas( date = '20240507'\n                             ( id = '1' text = 'ABAP' )\n                             ( id = '2' text = 'Development' )\n                             ( id = '3' text = 'Day' )\n                             ( id = '4' text = '2024' ) ).\n\n DATA(result) = data[ id = '2' ]-date.\n\n out->write( result )."
+                    "Code": " DATA(data) = VALUE t_datas( date = '20240507'\n                             ( id = '1' text = 'ABAP' )\n                             ( id = '2' text = 'Development' )\n                             ( id = '3' text = 'Day' )\n                             ( id = '4' text = '2024' ) ).\n\n DATA(result) = VALUE #( data[ 3 ] DEFAULT VALUE #( id   = 5\n                                                    text = 'Error' ) ).\n\n out->write( result-id )."
                 }
             ],
             "Answers": {
-                "A": "ABAP",
-                "B": "Development",
-                "C": "Day",
-                "D": "2024-05-07"
+                "A": "Error",
+                "B": "5",
+                "C": "Initial",
+                "D": "3"
             },
             "RightAnswer": "D",
-            "Explanation": "Es wird die zweite Zeile der Tabelle gelesen und das Datum ausgegeben. Die Konsole formatiert das Datum entsprechend."
+            "Explanation": ""
         },
         {
             "QuestionID": "2",
