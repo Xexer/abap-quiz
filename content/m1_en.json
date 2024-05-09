@@ -1,0 +1,176 @@
+{
+    "QuizID": "M1",
+    "QuizFrom": "2024-05-09",
+    "QuizContent": [
+        {
+            "QuestionID": "1",
+            "Question": "What is output in the console?",
+            "Content": [
+                {
+                    "Code": " DATA(data) = VALUE t_datas( date = '20240507'\n                             ( id = '1' text = 'ABAP' )\n                             ( id = '2' text = 'Development' )\n                             ( id = '3' text = 'Day' )\n                             ( id = '4' text = '2024' ) ).\n\n DATA(result) = data[ id = '2' ]-date.\n\n out->write( result )."
+                }
+            ],
+            "Answers": {
+                "A": "ABAP",
+                "B": "Development",
+                "C": "Day",
+                "D": "2024-05-07"
+            },
+            "RightAnswer": "D",
+            "Explanation": "The second line of the table is read and the date is output. The console formats the date accordingly."
+        },
+        {
+            "QuestionID": "2",
+            "Question": "What is output in the console?",
+            "Content": [
+                {
+                    "Code": " DATA(data) = VALUE string_table( ( `Modern` )\n                                  ( `ABAP` ) ).\n\n DATA(result) = concat_lines_of( table = data\n                                 sep   = ' ' ).\n\n out->write( result )."
+                }
+            ],
+            "Answers": {
+                "A": "Modern ABAP",
+                "B": "ModernABAP",
+                "C": "Modern'ABAP",
+                "D": "Exception"
+            },
+            "RightAnswer": "B",
+            "Explanation": "Since a character literal (') is used, the spaces are removed before execution."
+        },
+        {
+            "QuestionID": "3",
+            "Question": "What is output in the console?",
+            "Content": [
+                {
+                    "Code": " DATA(result) = reverse( `erutuF eht ni duolC PABA htiW` ).\n\n out->write( result )."
+                }
+            ],
+            "Answers": {
+                "A": "With PAPA in the Future",
+                "B": "With ABAP Cloud move Something",
+                "C": "With ABAP in the Future",
+                "D": "With ABAP Cloud in the Future"
+            },
+            "RightAnswer": "D",
+            "Explanation": "The REVERSE statement reverses the string once."
+        },
+        {
+            "QuestionID": "4",
+            "Question": "What is output in the console?",
+            "Content": [
+                {
+                    "Code": " DATA(data) = VALUE string_table( ( `Modern` )\n                                  ( `ABAP` )\n                                  ( `2024` ) ).\n\n data[ 1 ] = `Learning`.\n\n DATA(result) = concat_lines_of( table = data\n                                 sep   = ` ` ).\n\n out->write( result )."
+                }
+            ],
+            "Answers": {
+                "A": "Modern ABAP 2024",
+                "B": "Learning ABAP 2024",
+                "C": "ModernABAP2024",
+                "D": "LearningABAP2024"
+            },
+            "RightAnswer": "B",
+            "Explanation": "The content of the first line is changed by the assignment, then the text is composed using a string literal (`) and the spaces are retained."
+        },
+        {
+            "QuestionID": "5",
+            "Question": "What is output in the console?",
+            "Content": [
+                {
+                    "Code": " DATA(data) = VALUE t_datas( date = '20240507'\n                             ( id = '1' text = 'ABAP' )\n                             ( id = '2' text = 'Development' )\n                             ( id = '3' text = 'Day' )\n                             ( id = '4' text = '2024' ) ).\n\n DATA(result) = VALUE #( data[ 5 ] OPTIONAL ).\n\n out->write( result-text )."
+                }
+            ],
+            "Answers": {
+                "A": "ABAP",
+                "B": "Exception",
+                "C": "Day",
+                "D": "Initial"
+            },
+            "RightAnswer": "D",
+            "Explanation": "Row 5 is not present in the table; the addition OPTIONAL returns an initial row."
+        },
+        {
+            "QuestionID": "6",
+            "Question": "What is output in the console?",
+            "Content": [
+                {
+                    "Code": " DATA(text) = `ABAP Development in 2024`.\n\n DATA(part_one) = substring( val = text\n                             off = 20\n                             len = 4 ).\n DATA(part_two) = text+0(4).\n\n out->write( part_one && part_two )."
+                }
+            ],
+            "Answers": {
+                "A": "ABAP2024",
+                "B": "inABAP",
+                "C": "Development2024",
+                "D": "2024ABAP"
+            },
+            "RightAnswer": "D",
+            "Explanation": "Both substring functions are executed and merged before output."
+        },
+        {
+            "QuestionID": "7",
+            "Question": "What is output in the console?",
+            "Content": [
+                {
+                    "Code": " DATA(data) = VALUE string_table( ( `A` ) ( `B` ) ( `C` ) ( `D` ) ( `E` ) ( `F` ) ).\n\n DATA(result) = ``.\n LOOP AT data INTO DATA(line) STEP 2.\n   result &&= line.\n ENDLOOP.\n\n out->write( result )."
+                }
+            ],
+            "Answers": {
+                "A": "Initial",
+                "B": "ABCDEF",
+                "C": "ACE",
+                "D": "BDF"
+            },
+            "RightAnswer": "C",
+            "Explanation": "The loop starts with the first entry and then loops over every second record."
+        },
+        {
+            "QuestionID": "8",
+            "Question": "What is output in the console?",
+            "Content": [
+                {
+                    "Code": " DATA(data) = VALUE t_datas( date = '20240507'\n                             ( id = '1' text = 'ABAP' )\n                             ( id = '2' text = 'Development' )\n                             ( id = '3' text = 'Day' )\n                             ( id = '4' text = '2024' ) ).\n\n DATA(result) = data[ id = '0' ].\n\n out->write( result-text )."
+                }
+            ],
+            "Answers": {
+                "A": "SY-SUBRC = 4",
+                "B": "ABAP",
+                "C": "2024-05-07",
+                "D": "Exception"
+            },
+            "RightAnswer": "D",
+            "Explanation": "If an entry does not exist and should be read via itab[], this leads to the exception CX_SY_ITAB_LINE_NOT_FOUND."
+        },
+        {
+            "QuestionID": "9",
+            "Question": "What is output in the console?",
+            "Content": [
+                {
+                    "Code": " DATA(identifier) = 3.\n\n DATA(result) = SWITCH #( identifier\n                          WHEN 1 THEN 'ONE'\n                          WHEN 2 THEN 'TWO'\n                          WHEN 3 THEN 'THREE' ).\n\n out->write( result )."
+                }
+            ],
+            "Answers": {
+                "A": "ONE",
+                "B": "TWO",
+                "C": "THREE",
+                "D": "THR"
+            },
+            "RightAnswer": "D",
+            "Explanation": "The data type is derived from the first value, since this is a character literal ('), the data type c with length 3 is derived."
+        },
+        {
+            "QuestionID": "10",
+            "Question": "What is output in the console?",
+            "Content": [
+                {
+                    "Code": " DATA(data) = VALUE string_table( ( `A` ) ( `B` ) ( `C` ) ( `D` ) ( `E` ) ( `F` ) ).\n\n DATA(result) = ``.\n LOOP AT data INTO DATA(line) STEP -3.\n   result &&= line.\n ENDLOOP.\n\n out->write( result )."
+                }
+            ],
+            "Answers": {
+                "A": "FC",
+                "B": "DA",
+                "C": "Exception",
+                "D": "EB"
+            },
+            "RightAnswer": "A",
+            "Explanation": "If the count is negative, the process starts with the last entry in the table and then loops backwards in step size 3."
+        }
+    ]
+}

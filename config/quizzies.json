@@ -20,7 +20,26 @@
         },
         {
             "Area": "Modern ABAP",
-            "QuizList": []
+            "QuizList": [
+                {
+                    "QuizID": "M1",
+                    "Identifier": "m1_en",
+                    "Description": "Modern Statements - Part 1",
+                    "QuizDate": "2024-05-09",        
+                    "Author": "Björn S.",            
+                    "Path": "https://raw.githubusercontent.com/Xexer/abap-quiz/main/content/m1_en.json",
+                    "Examples" : "https://raw.githubusercontent.com/Xexer/abap-quiz/main/examples/dsag-modern-abap.json"
+                },
+                {
+                    "QuizID": "M2",
+                    "Identifier": "m2_de",
+                    "Description": "Modern Statements - Part 2",
+                    "QuizDate": "2024-05-09",        
+                    "Author": "Björn S.",            
+                    "Path": "https://raw.githubusercontent.com/Xexer/abap-quiz/main/content/m2_de.json",
+                    "Examples" : "https://raw.githubusercontent.com/Xexer/abap-quiz/main/examples/dsag-modern-abap.json"
+                }
+            ]
         }
     ],
     "de": [

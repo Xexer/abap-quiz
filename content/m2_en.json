@@ -4,7 +4,7 @@
     "QuizContent": [
         {
             "QuestionID": "1",
-            "Question": "Was wird in der Konsole ausgegeben?",
+            "Question": "What is output in the console?",
             "Content": [
                 {
                     "Code": " DATA(data) = VALUE t_datas( date = '20240507'\n                             ( id = '1' text = 'ABAP' )\n                             ( id = '2' text = 'Development' )\n                             ( id = '3' text = 'Day' )\n                             ( id = '4' text = '2024' ) ).\n\n DATA(result) = VALUE #( data[ 3 ] DEFAULT VALUE #( id   = 5\n                                                    text = 'Error' ) ).\n\n out->write( result-id )."
@@ -17,11 +17,11 @@
                 "D": "3"
             },
             "RightAnswer": "D",
-            "Explanation": "Es wir der dritte Eintrag Eintrag der Tabelle gelesen und die ID ausgegeben."
+            "Explanation": "The third entry in the table is read and the ID is output."
         },
         {
             "QuestionID": "2",
-            "Question": "Was wird in der Konsole ausgegeben?",
+            "Question": "What is output in the console?",
             "Content": [
                 {
                     "Code": " DATA(data) = VALUE t_datas( ( id = 'A' text = 'ABAP' )\n                             ( id = 'B' text = 'Development' )\n                             ( id = 'E' text = 'Day' )\n                             ( id = 'F' text = '2024' ) ).\n\n DATA(result) = xsdbool( data[ id = 'E' ]-text = 'Development' ).\n\n out->write( result )."
@@ -29,16 +29,16 @@
             ],
             "Answers": {
                 "A": "true",
-                "B": "Ausnahme",
+                "B": "Exception",
                 "C": "false",
                 "D": "Day"
             },
             "RightAnswer": "C",
-            "Explanation": "Es wird der Schlüssel E gelesen und der Text gegen 'Development' verglichen, da das Ergebnis falsch ist, wird durch XSDBOOL ein ABAP_FALSE geliefert, welches die Konsole aufbereitet."
+            "Explanation": "The key E is read and the text is compared against 'Development'. Since the result is incorrect, XSDBOOL returns an ABAP_FALSE, which the console prepares."
         },
         {
             "QuestionID": "3",
-            "Question": "Was wird in der Konsole ausgegeben?",
+            "Question": "What is output in the console?",
             "Content": [
                 {
                     "Code": " DATA(data) = VALUE t_datas( ( id = 'A' text = 'ABAP' )\n                             ( id = 'B' text = 'Development' )\n                             ( id = 'E' text = 'Day' )\n                             ( id = 'F' text = '2024' ) ).\n\n DATA(mapped) = CORRESPONDING t_datas( data MAPPING text = id ).\n DATA(result) = mapped[ 3 ]-text.\n\n out->write( result )."
@@ -51,11 +51,11 @@
                 "D": "F"
             },
             "RightAnswer": "C",
-            "Explanation": "Corresponding übernimmt die Datensätze und mappt gleichnamige Felder, der MAPPING Zusatz kann Felnamen auch abweichend zuordnen. Im Anschluss lesen wir den dritten Eintrag und geben den Text aus, der durch das Mapping nun die ID beinhaltet."
+            "Explanation": "Corresponding takes over the data records and maps fields with the same name; the MAPPING addition can also assign field names differently. We then read the third entry and output the text, which now contains the ID thanks to the mapping."
         },
         {
             "QuestionID": "4",
-            "Question": "Was wird in der Konsole ausgegeben?",
+            "Question": "What is output in the console?",
             "Content": [
                 {
                     "Code": " DATA(data) = VALUE t_datas( ( id = 'A' text = 'ABAP' )\n                             ( id = 'B' text = 'Development' )\n                             ( id = 'E' text = 'Day' )\n                             ( id = 'F' text = '2024' ) ).\n\n DATA(new_data) = VALUE t_datas( BASE data\n                                 ( id = 'G' text = 'Wiesloch' )\n                                 ( id = 'H' text = 'SAP' ) ).\n DATA(result) = lines( new_data ).\n\n out->write( result )."
@@ -68,11 +68,11 @@
                 "D": "0"
             },
             "RightAnswer": "A",
-            "Explanation": "Per VALUE mit BASE, wird die Tabelle als Grundlage genommen und die nachfolgenden Datensätze angehangen. LINES zählt dann die Zeilen in der Tabelle."
+            "Explanation": "Using VALUE with BASE, the table is taken as a basis and the following data records are appended. LINES then counts the lines in the table."
         },
         {
             "QuestionID": "5",
-            "Question": "Was wird in der Konsole ausgegeben?",
+            "Question": "What is output in the console?",
             "Content": [
                 {
                     "Code": " DATA(magic_number) = CONV char6( 14 ).\n\n DATA(result) = |MN: { magic_number ALPHA = IN }|.\n\n out->write( result )."
@@ -85,11 +85,11 @@
                 "D": "MN:000014"
             },
             "RightAnswer": "C",
-            "Explanation": "Es wird ein CHAR6 Feld mit dem Inhalt 14 erzeugt, durch das String-Template wird die Zahl formatiert und der Zusatz MN davor gesetzt."
+            "Explanation": "A CHAR6 field with the content 14 is created, the number is formatted using the string template and the addition MN is placed in front of it."
         },
         {
             "QuestionID": "6",
-            "Question": "Was wird in der Konsole ausgegeben?",
+            "Question": "What is output in the console?",
             "Content": [
                 {
                     "Code": " DATA(data) = VALUE t_datas( ( id = 'A' date = '20240506' )\n                             ( id = 'B' date = '20240507' )\n                             ( id = 'C' date = '20240508' )\n                             ( id = 'D' date = '20240509' ) ).\n\n DATA(filtered) = FILTER #( data USING KEY bydate WHERE date = CONV d( '20240507' ) ).\n\n DATA(result) = filtered[ 1 ]-id.\n\n out->write( result )."
@@ -102,11 +102,11 @@
                 "D": "D"
             },
             "RightAnswer": "B",
-            "Explanation": "Es werden die Datensätze aus der Tabelle nach dem Datum gefiltert und von den gefilterten Datensätzen der erste Eintrag gelesen."
+            "Explanation": "The records from the table are filtered by date and the first entry of the filtered records is read."
         },
         {
             "QuestionID": "7",
-            "Question": "Was wird in der Konsole ausgegeben?",
+            "Question": "What is output in the console?",
             "Content": [
                 {
                     "Code": " DATA(data) = VALUE t_datas( ( id = 'A' date = '20240506' )\n                             ( id = 'B' date = '20240507' )\n                             ( id = 'C' date = '20240508' ) ).\n\n DATA(ref) = REF #( data[ id = 'B' ] ).\n ref->id   = 'Z'.\n ref->date = '20240510'.\n\n DATA(result) = data[ id = 'B' ]-date.\n\n out->write( result )."
@@ -116,14 +116,14 @@
                 "A": "2024-05-07",
                 "B": "2024-05-10",
                 "C": "B",
-                "D": "Ausnahme"
+                "D": "Exception"
             },
             "RightAnswer": "D",
-            "Explanation": "Der Datensatz mit dem Schlüssel B wird gelesen per Referenz und die Werte der Zeile überschrieben. Beim zweiten Lesezugriff kommt es zu einer Ausnahme."
+            "Explanation": "The data record with key B is read by reference and the values ​​of the line are overwritten. An exception occurs during the second read access."
         },
         {
             "QuestionID": "8",
-            "Question": "Was wird in der Konsole ausgegeben?",
+            "Question": "What is output in the console?",
             "Content": [
                 {
                     "Code": " DATA(data) = VALUE t_datas( ( id = 'A' text = 'ABAP' )\n                             ( id = 'B' text = 'Development' )\n                             ( id = 'C' text = 'Day' )\n                             ( id = 'D' text = '2024' ) ).\n\n DATA(mapped) = CORRESPONDING t_datas( data EXCEPT text ).\n DATA(result) = mapped[ 1 ]-text.\n\n out->write( result )."
@@ -133,14 +133,14 @@
                 "A": "Initial",
                 "B": "ABAP",
                 "C": "Dev",
-                "D": "Ausnahme"
+                "D": "Exception"
             },
             "RightAnswer": "A",
-            "Explanation": "Corresponding übernimmt die Datensätze der Tabelle in eine neue Tabelle, das Schlüsselwort EXCEPT sorgt aber dafür, dass das Feld TEXT nicht übernommen wird und damit Initial bleibt."
+            "Explanation": "Corresponding transfers the table records into a new table, but the EXCEPT keyword ensures that the TEXT field is not transferred and therefore remains initial."
         },
         {
             "QuestionID": "9",
-            "Question": "Was wird in der Konsole ausgegeben?",
+            "Question": "What is output in the console?",
             "Content": [
                 {
                     "Code": " DATA(data) = VALUE t_datas( ( id = 'A' text = 'ABAP' )\n                             ( id = 'B' text = 'Development' )\n                             ( id = 'E' text = 'Day' )\n                             ( id = 'F' text = '2024' ) ).\n\n DATA(result) = line_index( data[ id = 'D' ] ).\n\n out->write( result )."
@@ -153,11 +153,11 @@
                 "D": "0"
             },
             "RightAnswer": "D",
-            "Explanation": "Wird keine Zeile bei LINE_INDEX ermittelt, weil es sie nicht gibt, dann wird 0 zurückgegeben."
+            "Explanation": "If no line is determined at LINE_INDEX because it does not exist, then 0 is returned."
         },
         {
             "QuestionID": "10",
-            "Question": "Was wird in der Konsole ausgegeben?",
+            "Question": "What is output in the console?",
             "Content": [
                 {
                     "Code": " DATA(data) = VALUE t_datas( ( id = 'A' text = 'ABAP' )\n                             ( id = 'B' text = 'Development' )\n                             ( id = 'E' text = 'Day' )\n                             ( id = 'F' text = '2024' ) ).\n\n DATA(result) = lines( data ).\n\n out->write( result )."
@@ -167,10 +167,10 @@
                 "A": "4",
                 "B": "5",
                 "C": "3",
-                "D": "Ausnahme"
+                "D": "Exception"
             },
             "RightAnswer": "A",
-            "Explanation": "Mit LINES wird die Anzahl der Tabellenzeilen ermittelt."
+            "Explanation": "LINES is used to determine the number of table lines."
         }
     ]
 }
