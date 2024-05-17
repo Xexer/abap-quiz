@@ -64,7 +64,7 @@
                 "D": "7.40"
             },
             "RightAnswer": "C",
-            "Explanation": ""
+            "Explanation": "ADT can be used on the system as of version 7.31, but the scope of views and functions always depends on the backend release."
         },
         {
             "QuestionID": "6",

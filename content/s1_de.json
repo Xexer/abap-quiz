@@ -64,7 +64,7 @@
                 "D": "UI-to-Code"
             },
             "RightAnswer": "C",
-            "Explanation": ""
+            "Explanation": "Mit CDS und AMDP ist es nun möglich, mehr Code direkt auf der Datenbank ausführen zu lassen. Vor allem wichtig bei der Verarbeitung von Datenmengen."
         },
         {
             "QuestionID": "6",
@@ -116,7 +116,7 @@
                 "D": "ca. 250"
             },
             "RightAnswer": "B",
-            "Explanation": ""
+            "Explanation": "Zum Zeitpunkt 2023/24 sind ca. 1000 freigegebene Klassen in ABAP Cloud verfügbar."
         },
         {
             "QuestionID": "10",

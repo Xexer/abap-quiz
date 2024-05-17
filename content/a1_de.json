@@ -64,7 +64,7 @@
                 "D": "7.40"
             },
             "RightAnswer": "C",
-            "Explanation": ""
+            "Explanation": "Bereits ab 7.31 kann mit ADT am System gearbeitet werden, der Umfang der Views und Funktionen ist aber immer vom Backend-Release abhängig."
         },
         {
             "QuestionID": "6",
