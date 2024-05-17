@@ -1,0 +1,134 @@
+{
+    "QuizID": "A2",
+    "QuizContent": [
+        {
+            "QuestionID": "1",
+            "Question": "What was the name of the first transaction code for the ABAP Workbench?",
+            "Content": [],
+            "Answers": {
+                "A": "SE80",
+                "B": "SWB",
+                "C": "SE38",
+                "D": "SEU"
+            },
+            "RightAnswer": "D",
+            "Explanation": ""
+        },
+        {
+            "QuestionID": "2",
+            "Question": "How many times did ADT win at the TechEd Demo Jam?",
+            "Content": [],
+            "Answers": {
+                "A": "1",
+                "B": "2",
+                "C": "3",
+                "D": "Not once"
+            },
+            "RightAnswer": "B",
+            "Explanation": ""
+        },
+        {
+            "QuestionID": "3",
+            "Question": "How do you work with ADT in parallel in multiple systems?",
+            "Content": [],
+            "Answers": {
+                "A": "Create an ADT project per system, context menu \"Open in Project\"",
+                "B": "Menu entry \"Open remote object\" in the ABAP Editor",
+                "C": "Menu entry \"Compare objects\" in Project Explorer",
+                "D": "No support"
+            },
+            "RightAnswer": "A",
+            "Explanation": ""
+        },
+        {
+            "QuestionID": "4",
+            "Question": "How to insert code patterns in ADT?",
+            "Content": [],
+            "Answers": {
+                "A": "Double click on an entry in the Patterns view",
+                "B": "Double click on an entry in the Templates view",
+                "C": "By double-clicking an entry in the ABAP Templates Preferences",
+                "D": "Calling the function \"Insert signature\""
+            },
+            "RightAnswer": "B",
+            "Explanation": ""
+        },
+        {
+            "QuestionID": "5",
+            "Question": "From which release can ADT be used?",
+            "Content": [],
+            "Answers": {
+                "A": "7.02",
+                "B": "7.20",
+                "C": "7.31",
+                "D": "7.40"
+            },
+            "RightAnswer": "C",
+            "Explanation": ""
+        },
+        {
+            "QuestionID": "6",
+            "Question": "Which editor functionality allows to automatically correct errors?",
+            "Content": [],
+            "Answers": {
+                "A": "Quick Fixes",
+                "B": "Quick Assists",
+                "C": "Quick Solutions",
+                "D": "Quick Access"
+            },
+            "RightAnswer": "B",
+            "Explanation": ""
+        },
+        {
+            "QuestionID": "7",
+            "Question": "With which Eclipse release was ADT initially released",
+            "Content": [],
+            "Answers": {
+                "A": "Indigo",
+                "B": "Kepler",
+                "C": "Ganymede",
+                "D": "Dark Moon"
+            },
+            "RightAnswer": "A",
+            "Explanation": ""
+        },
+        {
+            "QuestionID": "8",
+            "Question": "On which operating system is ADT not officially supported?",
+            "Content": [],
+            "Answers": {
+                "A": "Windows",
+                "B": "Mac",
+                "C": "Linux"
+            },
+            "RightAnswer": "C",
+            "Explanation": ""
+        },
+        {
+            "QuestionID": "9",
+            "Question": "Which shortcut can be used to highlight and evaluate ABAP unit code coverage results?",
+            "Content": [],
+            "Answers": {
+                "A": "Alt Shift F11",
+                "B": "Ctrl Shift F11",
+                "C": "Ctrl Shift F12",
+                "D": "Alt Shift F12"
+            },
+            "RightAnswer": "B",
+            "Explanation": ""
+        },
+        {
+            "QuestionID": "10",
+            "Question": "What is not supported in the ABAP Development Tools (ADT) with an Eclipse-based editor?",
+            "Content": [],
+            "Answers": {
+                "A": "ABAP Classes",
+                "B": "Web Dynpro",
+                "C": "Dynpros",
+                "D": "Tables"
+            },
+            "RightAnswer": "C",
+            "Explanation": ""
+        }
+    ]
+}

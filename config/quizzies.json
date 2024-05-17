@@ -1,6 +1,34 @@
 {
     "en": [
         {
+            "Area": "General",
+            "QuizList": [
+                {
+                    "QuizID": "S1",
+                    "Identifier": "s1_en",
+                    "Description": "ABAP",
+                    "QuizDate": "2024-05-17",
+                    "Author": "SAP",
+                    "Path": "https://raw.githubusercontent.com/Xexer/abap-quiz/main/content/s1_en.json",
+                    "Examples" : ""
+                } 
+            ]
+        },
+        {
+            "Area": "ABAP Development Tools",
+            "QuizList": [
+                {
+                    "QuizID": "A1",
+                    "Identifier": "a1_en",
+                    "Description": "Functions",
+                    "QuizDate": "2024-05-17",
+                    "Author": "SAP",
+                    "Path": "https://raw.githubusercontent.com/Xexer/abap-quiz/main/content/a1_en.json",
+                    "Examples" : ""
+                } 
+            ]
+        },
+        {
             "Area": "ABAP Cloud",
             "QuizList": [
                 {
@@ -43,6 +71,34 @@
         }
     ],
     "de": [
+        {
+            "Area": "Allgemein",
+            "QuizList": [
+                {
+                    "QuizID": "S1",
+                    "Identifier": "s1_de",
+                    "Description": "ABAP",
+                    "QuizDate": "2024-05-17",
+                    "Author": "SAP",
+                    "Path": "https://raw.githubusercontent.com/Xexer/abap-quiz/main/content/s1_de.json",
+                    "Examples" : ""
+                }              
+            ]
+        },        
+        {
+            "Area": "ABAP Development Tools",
+            "QuizList": [
+                {
+                    "QuizID": "A1",
+                    "Identifier": "a1_de",
+                    "Description": "Funktionen",
+                    "QuizDate": "2024-05-17",
+                    "Author": "SAP",
+                    "Path": "https://raw.githubusercontent.com/Xexer/abap-quiz/main/content/a1_de.json",
+                    "Examples" : ""
+                }                
+            ]
+        },
         {
             "Area": "ABAP Cloud",
             "QuizList": [

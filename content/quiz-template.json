@@ -1,0 +1,135 @@
+{
+    "QuizID": "ID",
+    "QuizContent": [
+        {
+            "QuestionID": "1",
+            "Question": "",
+            "Content": [],
+            "Answers": {
+                "A": "",
+                "B": "",
+                "C": "",
+                "D": ""
+            },
+            "RightAnswer": "",
+            "Explanation": ""
+        },
+        {
+            "QuestionID": "2",
+            "Question": "",
+            "Content": [],
+            "Answers": {
+                "A": "",
+                "B": "",
+                "C": "",
+                "D": ""
+            },
+            "RightAnswer": "",
+            "Explanation": ""
+        },
+        {
+            "QuestionID": "3",
+            "Question": "",
+            "Content": [],
+            "Answers": {
+                "A": "",
+                "B": "",
+                "C": "",
+                "D": ""
+            },
+            "RightAnswer": "",
+            "Explanation": ""
+        },
+        {
+            "QuestionID": "4",
+            "Question": "",
+            "Content": [],
+            "Answers": {
+                "A": "",
+                "B": "",
+                "C": "",
+                "D": ""
+            },
+            "RightAnswer": "",
+            "Explanation": ""
+        },
+        {
+            "QuestionID": "5",
+            "Question": "",
+            "Content": [],
+            "Answers": {
+                "A": "",
+                "B": "",
+                "C": "",
+                "D": ""
+            },
+            "RightAnswer": "",
+            "Explanation": ""
+        },
+        {
+            "QuestionID": "6",
+            "Question": "",
+            "Content": [],
+            "Answers": {
+                "A": "",
+                "B": "",
+                "C": "",
+                "D": ""
+            },
+            "RightAnswer": "",
+            "Explanation": ""
+        },
+        {
+            "QuestionID": "7",
+            "Question": "",
+            "Content": [],
+            "Answers": {
+                "A": "",
+                "B": "",
+                "C": "",
+                "D": ""
+            },
+            "RightAnswer": "",
+            "Explanation": ""
+        },
+        {
+            "QuestionID": "8",
+            "Question": "",
+            "Content": [],
+            "Answers": {
+                "A": "",
+                "B": "",
+                "C": "",
+                "D": ""
+            },
+            "RightAnswer": "",
+            "Explanation": ""
+        },
+        {
+            "QuestionID": "9",
+            "Question": "",
+            "Content": [],
+            "Answers": {
+                "A": "",
+                "B": "",
+                "C": "",
+                "D": ""
+            },
+            "RightAnswer": "",
+            "Explanation": ""
+        },
+        {
+            "QuestionID": "10",
+            "Question": "",
+            "Content": [],
+            "Answers": {
+                "A": "",
+                "B": "",
+                "C": "",
+                "D": ""
+            },
+            "RightAnswer": "",
+            "Explanation": ""
+        }
+    ]
+}

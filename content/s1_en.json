@@ -1,0 +1,135 @@
+{
+    "QuizID": "S1",
+    "QuizContent": [
+        {
+            "QuestionID": "1",
+            "Question": "In which year did the ABAP programming language turn 40?",
+            "Content": [],
+            "Answers": {
+                "A": "2020",
+                "B": "2021",
+                "C": "2022",
+                "D": "2023"
+            },
+            "RightAnswer": "D",
+            "Explanation": ""
+        },
+        {
+            "QuestionID": "2",
+            "Question": "What is the transaction code for the Screen Painter in the ABAP Workbench?",
+            "Content": [],
+            "Answers": {
+                "A": "SE31",
+                "B": "SE80",
+                "C": "SE51",
+                "D": "SE38"
+            },
+            "RightAnswer": "C",
+            "Explanation": ""
+        },
+        {
+            "QuestionID": "3",
+            "Question": "When was object-oriented programming (ABAP Objects) introduced into the ABAP Application Server?",
+            "Content": [],
+            "Answers": {
+                "A": "In the 1990s",
+                "B": "In the 2000s",
+                "C": "In the 1980s",
+                "D": "ABAP Objects?"
+            },
+            "RightAnswer": "A",
+            "Explanation": ""
+        },
+        {
+            "QuestionID": "4",
+            "Question": "In which year was SAP BTP, ABAP environment launched?",
+            "Content": [],
+            "Answers": {
+                "A": "2017",
+                "B": "2018",
+                "C": "2020",
+                "D": "2021"
+            },
+            "RightAnswer": "B",
+            "Explanation": ""
+        },
+        {
+            "QuestionID": "5",
+            "Question": "What paradigm shift has SAP HANA initiated as the underlying database in ABAP programming?",
+            "Content": [],
+            "Answers": {
+                "A": "Data-to-UI",
+                "B": "Data-to-Code",
+                "C": "Code-to-Data",
+                "D": "UI-to-Code"
+            },
+            "RightAnswer": "C",
+            "Explanation": ""
+        },
+        {
+            "QuestionID": "6",
+            "Question": "With which AS ABAP release was CDS and AMDP introduced?",
+            "Content": [],
+            "Answers": {
+                "A": "7.40",
+                "B": "7.31",
+                "C": "7.50",
+                "D": "7.02"
+            },
+            "RightAnswer": "A",
+            "Explanation": ""
+        },
+        {
+            "QuestionID": "7",
+            "Question": "How many secondary keys can an internal table have in ABAP?",
+            "Content": [],
+            "Answers": {
+                "A": "Keine",
+                "B": "5",
+                "C": "10",
+                "D": "15"
+            },
+            "RightAnswer": "D",
+            "Explanation": ""
+        },
+        {
+            "QuestionID": "8",
+            "Question": "Which isolation techniques are part of ABAP unit testing?",
+            "Content": [],
+            "Answers": {
+                "A": "eCATT and Test Double Frameworks ",
+                "B": "Smoke Seams and Test Double Frameworks",
+                "C": "ABAP Unit Runner and Test Double Frameworks",
+                "D": "Test Seams and Test Double Frameworks"
+            },
+            "RightAnswer": "D",
+            "Explanation": ""
+        },
+        {
+            "QuestionID": "9",
+            "Question": "How many classes are currently released in the cloud base?",
+            "Content": [],
+            "Answers": {
+                "A": "approx. 2000",
+                "B": "approx. 1000",
+                "C": "approx. 500",
+                "D": "approx. 250"
+            },
+            "RightAnswer": "B",
+            "Explanation": ""
+        },
+        {
+            "QuestionID": "10",
+            "Question": "How many keywords are there in ABAP?",
+            "Content": [],
+            "Answers": {
+                "A": "522",
+                "B": "937",
+                "C": "1024",
+                "D": "1250"
+            },
+            "RightAnswer": "D",
+            "Explanation": "ABAP is the programming language with the most keywords, especially historically."
+        }  
+    ]
+}

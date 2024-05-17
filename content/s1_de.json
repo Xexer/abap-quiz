@@ -1,0 +1,135 @@
+{
+    "QuizID": "S1",
+    "QuizContent": [
+        {
+            "QuestionID": "1",
+            "Question": "In welchem Jahr wurde die Programmiersprache ABAP 40 Jahre alt?",
+            "Content": [],
+            "Answers": {
+                "A": "2020",
+                "B": "2021",
+                "C": "2022",
+                "D": "2023"
+            },
+            "RightAnswer": "D",
+            "Explanation": ""
+        },
+        {
+            "QuestionID": "2",
+            "Question": "Wie lautet der Transaktionscode für den Screen Painter in der ABAP Workbench?",
+            "Content": [],
+            "Answers": {
+                "A": "SE31",
+                "B": "SE80",
+                "C": "SE51",
+                "D": "SE38"
+            },
+            "RightAnswer": "C",
+            "Explanation": ""
+        },
+        {
+            "QuestionID": "3",
+            "Question": "Wann wurde die objektorientierte Programmierung (ABAP Objects) in den ABAP Application Server eingeführt?",
+            "Content": [],
+            "Answers": {
+                "A": "In den 1990er Jahren",
+                "B": "In den 2000er Jahren",
+                "C": "In den 1980er Jahren",
+                "D": "ABAP Objects?"
+            },
+            "RightAnswer": "A",
+            "Explanation": ""
+        },
+        {
+            "QuestionID": "4",
+            "Question": "In welchem Jahr wurde SAP BTP, ABAP environment gelauncht?",
+            "Content": [],
+            "Answers": {
+                "A": "2017",
+                "B": "2018",
+                "C": "2020",
+                "D": "2021"
+            },
+            "RightAnswer": "B",
+            "Explanation": ""
+        },
+        {
+            "QuestionID": "5",
+            "Question": "Welchen Paradigmenwechsel hat SAP HANA als zugrundeliegende Datenbank in der ABAP Programmierung eingeleitet?",
+            "Content": [],
+            "Answers": {
+                "A": "Data-to-UI",
+                "B": "Data-to-Code",
+                "C": "Code-to-Data",
+                "D": "UI-to-Code"
+            },
+            "RightAnswer": "C",
+            "Explanation": ""
+        },
+        {
+            "QuestionID": "6",
+            "Question": "Mit welchem AS ABAP Release wurde CDS und AMDP eingeführt?",
+            "Content": [],
+            "Answers": {
+                "A": "7.40",
+                "B": "7.31",
+                "C": "7.50",
+                "D": "7.02"
+            },
+            "RightAnswer": "A",
+            "Explanation": ""
+        },
+        {
+            "QuestionID": "7",
+            "Question": "Wieviel Sekundärschlüssel kann eine interne Tabelle in ABAP haben?",
+            "Content": [],
+            "Answers": {
+                "A": "Keine",
+                "B": "5",
+                "C": "10",
+                "D": "15"
+            },
+            "RightAnswer": "D",
+            "Explanation": ""
+        },
+        {
+            "QuestionID": "8",
+            "Question": "Welche Isolationstechniken gehören zum ABAP Unit Testing?",
+            "Content": [],
+            "Answers": {
+                "A": "eCATT und Test Double Frameworks ",
+                "B": "Smoke Seams und Test Double Frameworks",
+                "C": "ABAP Unit Runner und Test Double Frameworks",
+                "D": "Test Seams und Test Double Frameworks"
+            },
+            "RightAnswer": "D",
+            "Explanation": ""
+        },
+        {
+            "QuestionID": "9",
+            "Question": "Wie viele Klassen sind aktuell in der Basis in der Cloud freigegeben?",
+            "Content": [],
+            "Answers": {
+                "A": "ca. 2000",
+                "B": "ca. 1000",
+                "C": "ca. 500",
+                "D": "ca. 250"
+            },
+            "RightAnswer": "B",
+            "Explanation": ""
+        },
+        {
+            "QuestionID": "10",
+            "Question": "Wie viele Schlüsselwörter gibt es in ABAP?",
+            "Content": [],
+            "Answers": {
+                "A": "522",
+                "B": "937",
+                "C": "1024",
+                "D": "1250"
+            },
+            "RightAnswer": "D",
+            "Explanation": "ABAP ist die Programmiersprache mit den meisten Schlüsselwörtern, vor allem historisch gewachsen."
+        }        
+    ]
+}
